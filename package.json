@@ -1,5 +1,5 @@
 {
-  "name": "teste",
+  "name": "teste-testando-testado",
   "version": "0.1.0",
   "workspaces": [
     "packages/*"
@@ -7,7 +7,7 @@
   "description": "",
   "type": "module",
   "bin": {
-    "teste": "teste.mjs"
+    "teste-testando-testado": "teste.mjs"
   },
   "keywords": [
 
