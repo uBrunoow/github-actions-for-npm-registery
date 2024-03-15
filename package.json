@@ -1,6 +1,6 @@
 {
   "name": "teste-testando-testado",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "workspaces": [
     "packages/*"
   ],
@@ -9,14 +9,10 @@
   "bin": {
     "teste-testando-testado": "teste.mjs"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "scripts": {
-
-  },
+  "scripts": {},
   "dependencies": {
     "chalk": "^5.3.0",
     "figlet": "^1.7.0",
