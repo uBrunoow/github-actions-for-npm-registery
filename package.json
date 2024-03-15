@@ -1,0 +1,38 @@
+{
+  "name": "teste",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "",
+  "type": "module",
+  "bin": {
+    "teste": "teste.mjs"
+  },
+  "keywords": [
+
+  ],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.16",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/readline-sync": "^1.4.8",
+    "typescript": "^5.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uBrunoow/teste.git"
+  },
+  "homepage": "https://github.com/uBrunoow/teste"
+}
