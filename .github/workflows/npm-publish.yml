@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with:Your Name
+        with:
           node-version: 20
       - run: npm i
       - run: npm ci
