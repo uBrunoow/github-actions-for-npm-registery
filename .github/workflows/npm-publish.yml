@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with:
+        with:Your Name
           node-version: 20
       - run: npm i
       - run: npm ci
@@ -32,8 +32,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm i
       - run: npm ci
-      - run: npm version minor
-      - run: git push -u origin main
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
