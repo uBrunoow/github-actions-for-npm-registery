@@ -38,7 +38,7 @@ jobs:
           git config --global user.name "GitHub Actions"
       - run: git pull
       - run: npm version minor
-      - run: git push -u main
+      - run: git push -u origin main
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
