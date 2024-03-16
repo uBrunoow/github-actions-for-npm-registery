@@ -32,6 +32,13 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm i
       - run: npm ci
+      - name: Git configuration
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
+      - run: git pull
+      - run: npm version minor
+      - run: git push -u main
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
