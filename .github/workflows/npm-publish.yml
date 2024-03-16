@@ -34,8 +34,8 @@ jobs:
       - run: npm ci
       - name: Git configuration
         run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.email "brunowerner7@gmail.com"
+          git config --global user.name "Bruno Werner"
       - run: git pull
       - run: npm version minor
       - run: git push -u origin main
